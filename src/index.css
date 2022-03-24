@@ -1,13 +1,121 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* :root{
+  --primary: #118c4f;
+  --background: #f5f8ff;
+} */
+
+.a-brand{
+ position: relative;
+ left: 10%;
+}
+
+.ul-nav{
+  padding-left: 60%;
+}
+
+.head-sec{
+  background-color: #f5f8ff;
+  height: 100vh;
+}
+
+.head-div{
+  position: absolute;
+  left: 5%;
+  top: 40%;
+}
+
+.head-div h1{
+  width: 70%;
+}
+
+.head-div1{
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+.head-div1 img{
+  width: 100%;
+  height: 100%;
+}
+
+.co-sec{
+  margin-top: 10%;
+}
+
+.co-h1{
+  font-family: 'Bebas Neue', cursive; 
+  font-size: 70px;
+  
+}
+
+.co-div{
+  position: absolute;
+  top: 150%;
+  left: 10%;
+}
+
+.co-img{
+  width: 30%;
+  height: 30%;
+  position: relative;
+  left: 35%;
+}
+
+.reg-sec{
+  background-color: #f5f8ff;
+  height: 100vh;
+  margin-top: 10%;
+}
+
+.reg-div{
+  position: relative;
+  left: 30%;
+}
+
+.reg-div img{
+  width: 50%;
+  height: 50%;
+}
+
+.cur-sec{
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 10%;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.card{
+  transition: all .5s ease-in;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 5px;
+}
+
+.bit-div1{
+  font-family: 'Bebas Neue', cursive;
+}
+
+.bit-div1 h1{
+  font-size: 80px;
+}
+
