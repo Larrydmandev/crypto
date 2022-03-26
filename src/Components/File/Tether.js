@@ -11,10 +11,10 @@ function Tether() {
                 <h1 className="text-center">FACTS ABOUT TETHER YOU NEED TO KNOW</h1>
             </div>
             <div className="row">
-                <div className="col-6">
+                <div className="col-md-6 col-sm-12">
                     <img src="./images/tether.png" style={{width: '90%', height: '90%', position: 'relative', top:'0%'}} alt="" />
                 </div>
-                <div className="col-6" style={{position:'absolute', right:'10%' , top: '40%'}}>
+                <div className="col-md-6 col-sm-12" style={{position:'absolute', right:'10%' , top: '40%'}}>
                     <ul style={{listStyle: 'none'}}>
                         <li style={{marginBottom:'1%'}}>
                             Tether (USDT) is a stablecoin, a type of cryptocurrency which aims to keep cryptocurrency valuations stable.

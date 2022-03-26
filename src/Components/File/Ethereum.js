@@ -11,10 +11,10 @@ function Ethereum(params) {
                     <h1 className="text-center">FACTS ABOUT ETHEREUM YOU NEED TO KNOW</h1>
                 </div>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-12">
                         <img src="./images/ethereum.png" alt="" />
                     </div>
-                    <div className="col-6" style={{position:'absolute', right:'10%' , top: '50%'}}>
+                    <div className="col-md-6 col-sm-12" style={{position:'absolute', right:'10%' , top: '50%'}}>
                         <ul style={{listStyle: 'none'}}>
                             <li style={{marginBottom:'1%'}}>
                                 Ethereum is a blockchain-based platform that is best known for its cryptocurrency, ETH.

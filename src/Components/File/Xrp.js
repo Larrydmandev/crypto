@@ -11,10 +11,10 @@ function Xrp() {
                     <h1 className="text-center">FACTS ABOUT Xrp YOU NEED TO KNOW</h1>
                 </div>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-12">
                         <img src="./images/xrp.png" style={{position: 'absolute',  right: '70%,', top:'30%' }} alt="" />
                     </div>
-                    <div className="col-6" style={{position:'absolute', right:'10%' , top: '50%'}}>
+                    <div className="col-md-6 col-sm-12" style={{position:'absolute', right:'10%' , top: '50%'}}>
                         <ul style={{listStyle: 'none'}}>
                             <li style={{marginBottom:'1%'}}>
                                 XRP is the digital asset native to the Ripple platform

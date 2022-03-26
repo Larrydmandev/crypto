@@ -11,10 +11,10 @@ function Binance() {
                 <h1 className="text-center">FACTS ABOUT BINANCE YOU NEED TO KNOW</h1>
             </div>
             <div className="row">
-                <div className="col-6">
+                <div className="col-md-6 col-sm-12">
                     <img src="./images/binance.png" style={{position:'absolute', right:'70%' , top: '50%'}} alt="" />
                 </div>
-                <div className="col-6" style={{position:'absolute', right:'10%' , top: '50%'}}>
+                <div className="col-md-6 col-sm-12" style={{position:'absolute', right:'10%' , top: '50%'}}>
                     <ul style={{listStyle: 'none'}}>
                         <li style={{marginBottom:'1%'}}>
                             Binance Coin is the cryptocurrency issued by the Binance exchange and trades with the BNB symbol.
