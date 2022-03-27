@@ -11,15 +11,15 @@ function Register(params) {
                         </div>
                     </div>
                     <div className="col-md-6 col-sm-12">
-                        <div className="" style={{position: 'relative', top: '40%',right: '10%'}}>
+                        <div className="" style={{position: 'relative', top: '40%',right: '1%'}}>
                            <h1>REGISTER WITH US <br/> AND MAKE PASSIVE INCOME</h1>
                         </div>
                         <div style={{position:'relative', top: '50%', right: '10%'}}>
-                           <div class="row g-3 align-items-center">
-                                <div className="col-auto">
+                           <div class="row">
+                                <div className="col-auto col-md-6 col-sm-12">
                                     <input type="email" id="inputPassword6" placeholder="email" className="form-control" aria-describedby="passwordHelpInline"/>
                                 </div>
-                                <div className="col-auto">
+                                <div className="col-auto col-md-6 col-sm-12">
                                     <button className="btn btn-success">Continue</button>
                                 </div>
                             </div>
