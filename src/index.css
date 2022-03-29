@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 
 /* :root{
@@ -28,6 +29,7 @@ body {
   background-color: #f5f8ff;
  min-height: 100vh;
   max-width: 210vh;
+  overflow-x: hidden;
 }
 
 .head-div{
@@ -53,6 +55,7 @@ body {
 
 .co-sec{
   margin-top: 10%;
+  overflow-x: hidden;
 }
 
 .co-h1{
@@ -79,6 +82,7 @@ body {
  min-height: 100vh;
  max-width: 213vh;
   margin-top: 10%;
+  overflow-x: hidden;
 }
 
 .reg-div{
@@ -94,6 +98,7 @@ body {
 .cur-sec{
   font-family: 'Bebas Neue', cursive;
   margin-top: 10%;
+  overflow-x: hidden;
 }
 
 .red{
@@ -138,5 +143,3 @@ body {
     display: block;
   }
 }
-
-
