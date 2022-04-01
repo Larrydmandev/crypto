@@ -24,7 +24,7 @@ function TopCoinm() {
   return (
         <section className="container top-sec">
             <div style={{marginBottom: '5%'}}>
-              <h1 className="text-center">TOP 20 CRPTOCURRENCIES</h1>
+              <h1 className="text-center top-h1">TOP 20 CRPTOCURRENCIES</h1>
             </div>
 
             <div>
