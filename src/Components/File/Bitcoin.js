@@ -1,20 +1,22 @@
 import React from "react";
-import Navbar from "../Navbar";
+import { Col, Row } from "react-bootstrap";
+import Mainnav from "../Mainnav";
 
 function Bitcoin(params) {
     return(
         <section>
-            <Navbar/>
+            <Mainnav/>
 
             <div style={{marginTop:'10%'}} className="bit-div">
                 <div className="text-center bit-div1">
                     <h1>FUN FACTS ON BITCOIN</h1>
                 </div>
-                <div className="row">
-                    <div className="col-md-6 col-sm-12">
+
+                <Row>
+                   <Col md={6}>
                         <img src="./images/bitcoin.png" style={{width: '100%', height:'100%'}} alt="" />
-                    </div>
-                    <div className="col-md-6 col-sm-12" style={{position:'absolute', right:'10%' , top: '70%'}}>
+                   </Col>
+                   <Col md={6} style={{position:'absolute', right:'10%' , top: '65%'}}>
                         <ul style={{listStyle: 'none'}}>
                             <li style={{marginBottom:'1%'}}>
                                 Launched in 2009, Bitcoin is the world's largest cryptocurrency by market capitalization.
@@ -29,8 +31,8 @@ function Bitcoin(params) {
                                 As the earliest virtual currency to meet widespread popularity and success, Bitcoin has inspired a host of other cryptocurrencies in its wake.
                             </li>
                         </ul>
-                    </div>
-                </div>
+                   </Col>
+                </Row>
             </div>
         </section>
     )

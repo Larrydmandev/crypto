@@ -1,16 +1,21 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 
 function Header(params) {
     return(
         <section className="head-sec">
-            <div className="row">
-               <div className="col-6  head-div">
-                  <h1 className="head-h1"> WELCOME TO THE WORLD OF CRYPTO</h1>
-               </div>
-               <div className="col-6  head-div1">
-                  <img src="./images/hero-img.png" alt="" />
-               </div>
-            </div>
+            <Row>
+                <Col md={6}>
+                   <div className="head-div">
+                       <h2 className="head-h2">WELCOME TO THE WORLD OF CRYPTO</h2>
+                   </div>
+                </Col>
+                <Col md={6}>
+                    <div className="head-div-1">
+                        <img src="./images/hero-img.png" className="head-img" alt="" />
+                    </div>
+                </Col>
+            </Row>
         </section>
     )
 }

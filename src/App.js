@@ -6,6 +6,7 @@ import Tether from './Components/File/Tether';
 import UsdCoin from './Components/File/UsdCoin';
 import Xrp from './Components/File/Xrp';
 import Homepage from './Components/Homepage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {

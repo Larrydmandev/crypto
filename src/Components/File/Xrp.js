@@ -1,22 +1,24 @@
 import React from 'react'
-import Navbar from '../Navbar'
+import { Col, Row } from 'react-bootstrap'
+import Mainnav from '../Mainnav'
 
 function Xrp() {
   return (
-        <section>
-            <Navbar/>
+        <section className="x-div">
+            <Mainnav/>
 
             <div>
                 <div style={{marginTop: '5%', marginBottom: '5%'}}>
                     <h1 className="text-center">FACTS ABOUT Xrp YOU NEED TO KNOW</h1>
                 </div>
-                <div className="row">
-                    <div className="col-md-6 col-sm-12">
+
+                <Row>
+                    <Col md={6}>
                         <img src="./images/xrp.png" style={{position: 'absolute',  right: '70%,', top:'30%' }} alt="" />
-                    </div>
-                    <div className="col-md-6 col-sm-12" style={{position:'absolute', right:'10%' , top: '50%'}}>
+                    </Col>
+                    <Col md={6} style={{position:'absolute', right:'10%' , top: '50%'}}>
                         <ul style={{listStyle: 'none'}}>
-                            <li style={{marginBottom:'1%'}}>
+                           <li style={{marginBottom:'1%'}}>
                                 XRP is the digital asset native to the Ripple platform
                             </li>
                             <li style={{marginBottom:'1%'}}>
@@ -32,8 +34,8 @@ function Xrp() {
                                 The Founders of XRP are Brad Garlinghouse and Chris Larsen
                             </li>
                         </ul>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
            </div>
         </section>
    )

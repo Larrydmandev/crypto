@@ -1,21 +1,22 @@
 import React from 'react'
-import Navbar from '../Navbar'
+import { Col, Row } from 'react-bootstrap'
+import Mainnav from '../Mainnav'
 
 function Binance() {
   return (
     <section>
-        <Navbar/>
+        <Mainnav/>
 
         <div>
             <div style={{marginTop: '5%', marginBottom: '5%'}}>
                 <h1 className="text-center">FACTS ABOUT BINANCE YOU NEED TO KNOW</h1>
             </div>
-            <div className="row">
-                <div className="col-md-6 col-sm-12">
+            <Row>
+                <Col md={6}>
                     <img src="./images/binance.png" style={{position:'absolute', right:'70%' , top: '50%'}} alt="" />
-                </div>
-                <div className="col-md-6 col-sm-12" style={{position:'absolute', right:'10%' , top: '50%'}}>
-                    <ul style={{listStyle: 'none'}}>
+                </Col>
+                <Col md={6} style={{position:'absolute', right:'10%' , top: '50%'}}>
+                   <ul style={{listStyle: 'none'}}>
                         <li style={{marginBottom:'1%'}}>
                             Binance Coin is the cryptocurrency issued by the Binance exchange and trades with the BNB symbol.
                         </li>
@@ -35,8 +36,8 @@ function Binance() {
                             The founder of Binance Coin is Changpeng Zhao
                         </li>
                     </ul>
-                </div>
-            </div>
+                </Col>
+            </Row>
         </div>
     </section>
   )

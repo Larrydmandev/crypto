@@ -1,18 +1,18 @@
 import React from "react";
-import Coins from "./Coins";
+import Coinm from "./Coinm";
 import Header from "./Header";
-import Navbar from "./Navbar";
-import Register from "./Register";
-import TopCoin from "./TopCoin";
+import Mainnav from "./Mainnav";
+import Regm from "./Regm";
+import TopCoinm from "./TopCoinm";
 
 function Homepage(params) {
   return (
     <>
-      <Navbar />
+      <Mainnav />
       <Header />
-      <Coins />
-      <Register />
-      <TopCoin/>
+      <Coinm />
+      <Regm/>
+      <TopCoinm/>
     </>
   );
 }

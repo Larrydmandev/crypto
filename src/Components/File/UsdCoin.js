@@ -1,21 +1,23 @@
 import React from 'react'
-import Navbar from '../Navbar'
+import { Col, Row } from 'react-bootstrap'
+import Mainnav from '../Mainnav'
 
 function UsdCoin() {
   return (
     <section>
-        <Navbar/>
+        <Mainnav/>
 
         <div>
+
             <div style={{marginTop: '5%', marginBottom: '5%'}}>
                 <h1 className="text-center">FACTS ABOUT USD COIN YOU NEED TO KNOW</h1>
             </div>
-            <div className="row">
-                <div className="col-md-6 col-sm-12">
+            <Row>
+                <Col md={6}>
                     <img src="./images/usdcoin.png" style={{position: 'relative', left: '30%'}} alt="" />
-                </div>
-                <div className="col-md-6 col-sm-12" style={{position:'absolute', right:'10%' , top: '50%'}}>
-                    <ul style={{listStyle: 'none'}}>
+                </Col>
+                <Col md={6} style={{position:'absolute', right:'10%' , top: '50%'}}>
+                   <ul style={{listStyle: 'none'}}>
                         <li style={{marginBottom:'1%'}}>
                             USD Coin (USDC) is a cryptocurrency that is backed by fiat money, making it a stablecoin.
                         </li>
@@ -26,8 +28,8 @@ function UsdCoin() {
                             USD Coin is not issued by the U.S. government.
                         </li>
                     </ul>
-                </div>
-            </div>
+                </Col>
+            </Row>
         </div>
     </section>
   )

@@ -1,21 +1,23 @@
 import react from 'react'
-import Navbar from '../Navbar'
+import { Col, Collapse, Row } from 'react-bootstrap'
+import Mainnav from '../Mainnav'
 
 function Ethereum(params) {
     return(
         <section>
-            <Navbar/>
+            <Mainnav/>
 
             <div>
                <div style={{marginTop: '5%', marginBottom: '5%'}}>
                     <h1 className="text-center">FACTS ABOUT ETHEREUM YOU NEED TO KNOW</h1>
                 </div>
-                <div className="row">
-                    <div className="col-md-6 col-sm-12">
-                        <img src="./images/ethereum.png" alt="" />
-                    </div>
-                    <div className="col-md-6 col-sm-12" style={{position:'absolute', right:'10%' , top: '50%'}}>
-                        <ul style={{listStyle: 'none'}}>
+
+                <Row>
+                    <Col md={6}>
+                      <img src="./images/ethereum.png" alt="" />
+                    </Col>
+                    <Col md={6} style={{position:'absolute', right:'10%' , top: '50%'}}>
+                       <ul style={{listStyle: 'none'}}>
                             <li style={{marginBottom:'1%'}}>
                                 Ethereum is a blockchain-based platform that is best known for its cryptocurrency, ETH.
                             </li>
@@ -32,8 +34,8 @@ function Ethereum(params) {
                                 The Founder of Ethereum is Vitalik Buterin, a Russian-born Canadian Programmer
                             </li>
                         </ul>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
             </div>
         </section>
     )

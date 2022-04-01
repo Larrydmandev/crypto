@@ -1,7 +1,7 @@
 body {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Montserrat', sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 *{
@@ -16,23 +16,273 @@ body {
   --background: #f5f8ff;
 } */
 
-.a-brand{
+
+.head-sec{
+  background-color: #f5f8ff;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.head-div{
+  padding-left: 20%;
+  padding-top: 35%;
+}
+
+/* .head-h2{
+  font-weight: 100;
+} */
+
+.head-div-1{
+  padding-right: 20%;
+  padding-top: 10%;
+}
+
+.head-img{
+  width: 100%;
+  height: 100%;
+}
+
+.co-sec{
+  margin-top: 10%;
+  overflow-x: hidden;
+}
+
+.co-h1{
+  font-family: 'Bebas Neue', cursive; 
+  font-size: 50px;
+}
+
+.co-div{
+  padding-top: 20%;
+  padding-left: 20%;
+}
+
+.card{
+  transition: all .5s ease-in;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 5px;
+}
+
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.reg-sec{
+  background-color: #f5f8ff;
+  height: 100vh;
+  margin-top: 10%;
+  overflow-x: hidden;
+}
+
+.reg-div{
+  position: relative;
+  left: 30%;
+}
+
+.reg-img{
+  width: 50%;
+  height: 50%;
+}
+.reg-input{
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+}
+
+.reg-btn{
+  position: absolute;
+  left: 45%;
+  bottom: 50%;
+}
+
+
+.co-sec{
+  margin-bottom: 10%;
+}
+
+
+.bit-div{
+  font-family: 'Bebas Neue', cursive;
+}
+
+.bit-div1 h1{
+  font-size: 80px;
+}
+
+.x-div{
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+  .head-div-1{
+    position: relative;
+    left: 15%;
+  }
+  .co-div{
+    padding-left: 15%;
+  }
+  .card-1{
+    position: relative;
+    left: 30%;
+  }
+  .c-1{
+    margin-bottom: 5%;
+  }
+  .c-2{
+    margin-bottom: 5%;
+  }
+  .c-3{
+    margin-bottom: 5%;
+  }
+  .c-4{
+    margin-bottom: 5%;
+  }
+  .c-5{
+    margin-bottom: 5%;
+  }
+  .reg-h1{
+    padding-left: 20%;
+  }
+  .reg-img{
+    position: relative;
+    right: 10%;
+  }
+  .reg-input{
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+  }
+  .reg-btn{
+    position: relative;
+    left: 70%;
+  }
+  .main-th{
+    position: relative;
+    left: 6%;
+  }
+  .main-td{
+    display: none;
+  }
+  .main-td-1{
+    position: relative;
+    right: 9% !important;
+  }
+  .main-td-2{
+    position: relative;
+    left: -36px;
+  }
+  .img-div img{
+    width: 40% !important;
+    height: 40% !important;
+  }
+  .main-th-1{
+    position: relative;
+    left: 13%;
+  }
+  .main-td-3{
+    right: 2% !important;
+  }
+  .main-td-4{
+    right: 2% !important;
+  }
+  .main-th-3{
+    position: relative;
+    left: 9%;
+  }
+  .main-th-4{
+    left: 10%;
+  }
+  .main-td-5{
+    right: 2% !important;
+  }
+  .main-table{
+    width: 200%;
+  }
+  .main-th-5{
+    left: 10%;
+  }
+  .main-td-6{
+    right: 3% !important;
+  }
+  .main-th-6{
+    left: 24% !important;
+  }
+  .main-td-7{
+    left: 1%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .a-brand{
  position: relative;
  left: 10%;
 }
 
 .ul-nav{
   padding-left: 60%;
-}
+} */
 
-.head-sec{
+/* .head-sec{
   background-color: #f5f8ff;
  min-height: 100vh;
   max-width: 210vh;
   overflow-x: hidden;
-}
+} */
 
-.head-div{
+/* .head-div{
   position: absolute;
   left: 5%;
   top: 40%;
@@ -48,19 +298,18 @@ body {
   top: 30%;
 }
 
-.head-div1 img{
+.head-img{
   height: 100%;
   width: 100%;
-}
+} */
 
-.co-sec{
-  margin-top: 10%;
-  overflow-x: hidden;
-}
+/* .co-sec{ */
+  /* margin-top: 10%; */
+  /* overflow-x: hidden; */
+/* } */
 
-.co-h1{
-  font-family: 'Bebas Neue', cursive; 
-  font-size: 50px;
+/* .co-h1{
+ 
   
 }
 
@@ -68,27 +317,15 @@ body {
   position: absolute;
   top: 150%;
   left: 1%;
+} */
+
+
+
+/* .reg-sec{
+
 }
 
-.co-img{
-  max-width: 30%;
-  min-height: 30%;
-  position: relative;
-  left: 35%;
-}
 
-.reg-sec{
-  background-color: #f5f8ff;
- min-height: 100vh;
- max-width: 213vh;
-  margin-top: 10%;
-  overflow-x: hidden;
-}
-
-.reg-div{
-  position: relative;
-  left: 30%;
-}
 
 .reg-div img{
   max-width: 50%;
@@ -99,9 +336,9 @@ body {
   font-family: 'Bebas Neue', cursive;
   margin-top: 10%;
   overflow-x: hidden;
-}
+} */
 
-.red{
+/* .red{
   color: red;
 }
 
@@ -109,37 +346,16 @@ body {
   color: green;
 }
 
-.card{
-  transition: all .5s ease-in;
-}
 
-.card:hover{
-  transform: translateY(-10px);
-  box-shadow: 5px 5px;
-}
 
 .bit-div1{
-  font-family: 'Bebas Neue', cursive;
+  
 }
 
 .bit-div1 h1{
   font-size: 80px;
-}
+} */
 
- /* media query for less than 600 screen size */
+/* media query for less than 600 screen size */
 
-@media only screen and (max-width: 600px){
-  .co-h1{
-    width: 50%;
-    padding-bottom: 30%;
-  }
-  .head-div1{
-    padding-top: 30%;
-  }
-  .table{
-    display: block;
-  }
-  .card{
-    display: block;
-  }
-}
+
